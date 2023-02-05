@@ -1,0 +1,130 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  /* background-color: white */
+  /* background:linear-gradient(90deg,#FDFC47 0%,#24FE41 100%); 
+  */ 
+  background: linear-gradient(93deg,#6181ef,#8a08f8,#981652,#fde71c,#f31dee);
+  background-size: 300% 300%;
+  animation: gradient-animation 20s ease infinite;
+
+  }
+
+header{
+  padding: 20px;
+  /* background:linear-gradient(90deg,#4646FB 0%,#BE4DFF 100%); */
+  background: linear-gradient(93deg,#6181ef,#8a08f8,#981652,#fde71c,#f31dee);
+  background-size: 300% 300%;
+  animation: gradient-animation 20s ease infinite;
+  
+}
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(250, 250, 250);
+}
+ul li{
+  list-style: none;
+
+}
+/* buttn-1 style */
+.buttn-1{
+  width: 130px;
+  height: 35px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 9px;
+  background-color: #0d0d0d;
+  color: aliceblue;
+  cursor: pointer;
+}
+.buttn-1:hover{
+  background:linear-gradient(90deg,#4646FB 0%,#BE4DFF 100%);
+}
+.btn-2{
+  width: 180px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 9px;
+  background-color: #0d0d0d;
+  color: aliceblue;
+  cursor: pointer;
+  margin-top:70px ;
+}
+.btn-2:hover{
+  background:linear-gradient(90deg,#FDFC47 0%,#24FE41 100%);
+  color: #0d0d0d;
+}
+
+/* main{
+  display: flex;
+  justify-content: flex-start; 
+} */
+.main-sec{
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 100px;
+  padding-left: 200px;
+}
+img{
+  height: 500px;
+  width: 500px;
+  margin-left: 100px;
+  
+
+}
+.logo{
+  height: 30px;
+  width: 80px;
+  object-fit: contain;
+  
+}
+h1{
+  font-size: 60px;
+}
+h1 span{
+  color: rgb(237, 237, 241);
+}
+p{
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: large;
+}
+
+/* animation for background */
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* header animation */
+a:hover{
+  background: linear-gradient(93deg,#6181ef,#8a08f8,#981652,#fde71c,#f31dee);
+  background-size: 300% 300%;
+  animation: gradient-animation 20s ease infinite;
+  
+}
